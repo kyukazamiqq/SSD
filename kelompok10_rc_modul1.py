@@ -22,7 +22,7 @@ from statistics import mode #just for mode
 from scipy.special import binom #binomial distribution
 from scipy.stats import iqr #only for interquartile range
 
-dataset = pd.read_excel("/content/datasetbuset.xlsx")
+dataset = pd.read_excel("/content/dataset.xlsx")
 dataset.head()
 
 dataset.info()
